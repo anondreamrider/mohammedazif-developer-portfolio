@@ -64,14 +64,14 @@ const Projects = () => {
                         ))}
                       </div>
                     </div>
-                    <div className="flex gap-2 md:opacity-0 group-hover:opacity-100 transition-base">
+                    {/* <div className="flex gap-2 md:opacity-0 group-hover:opacity-100 transition-base">
                       <Button variant="ghost" size="sm">
                         <Github className="w-4 h-4" />
                       </Button>
                       <Button variant="ghost" size="sm">
                         <ExternalLink className="w-4 h-4" />
                       </Button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

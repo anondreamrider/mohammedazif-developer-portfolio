@@ -30,14 +30,18 @@ const Hero = () => {
           
           {/* Social links */}
           <div className="flex justify-center gap-6">
+            <a href="https://github.com/Mohammedazif" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="sm" className="transition-base hover:bg-secondary">
               <Github className="w-4 h-4 mr-2" />
               GitHub
             </Button>
+            </a>
+            <a href="https://www.linkedin.com/in/mohammedazif" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="sm" className="transition-base hover:bg-secondary">
               <Linkedin className="w-4 h-4 mr-2" />
               LinkedIn
             </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -50,4 +54,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero;  

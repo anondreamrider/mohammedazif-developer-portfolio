@@ -15,7 +15,7 @@ const Contact = () => {
               I'm currently looking for new opportunities and interesting projects. 
               Feel free to reach out if you'd like to work together.
             </p>
-            
+
             <div className="space-y-6">
               <div className="flex flex-col md:flex-row justify-center gap-8 text-muted-foreground">
                 <div className="flex items-center justify-center gap-3">
@@ -27,17 +27,30 @@ const Contact = () => {
                   <span>+91 8111977193</span>
                 </div>
               </div>
-              
+
               <div className="flex justify-center gap-4">
-                <Button variant="ghost" className="transition-base hover:bg-secondary">
-                  <Github className="w-5 h-5 mr-2" />
-                  GitHub
-                </Button>
-                <Button variant="ghost" className="transition-base hover:bg-secondary">
-                  <Linkedin className="w-5 h-5 mr-2" />
-                  LinkedIn
-                </Button>
+                <a
+                  href="https://github.com/Mohammedazif"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="transition-base hover:bg-secondary">
+                    <Github className="w-5 h-5 mr-2" />
+                    GitHub
+                  </Button>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/mohammedazif"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="transition-base hover:bg-secondary">
+                    <Linkedin className="w-5 h-5 mr-2" />
+                    LinkedIn
+                  </Button>
+                </a>
               </div>
+
             </div>
           </div>
         </div>
